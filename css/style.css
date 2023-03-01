@@ -126,17 +126,15 @@ header{
 }
 
 
-
 /*MAIN*/
 
 
-.container-business-cards{
+.container{
   display: flex;
   justify-content: space-evenly;
   height: 1000px;
-  width: 800px;
+  width: 1074px;
   min-width: 200px;
-  background-color: blue;
   margin: 0 auto;
   margin-top: 200px;
   position: relative;
@@ -144,39 +142,136 @@ header{
 }
 
 
-
-.business-cards-first{
-  height: 600px;
-  width: 200px;
-  background-color: red;
-  align-content: center;
+/*BUSINESS PLANES CARDS*/
+.business-cards{
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 291px;
+  border: 1px solid lightgray;
   position: absolute;
   top: 100px;
   left: 70px;
 }
 
-/*BLOCCATI QUA VEDIAMO DI RISLVERE*/
-.business-cards-first span{
-  align-items: center;
-}
 
-.business-cards-second{
-  height: 600px;
-  width: 200px;
-  background-color: red;
-  align-content: center;
-  position: absolute;
-  top: 100px;
+
+.top-business-card{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  font-size: 13px;
 }
 
 
 
-.business-cards-third{
-  height: 600px;
-  width: 200px;
-  background-color: red;
-  align-content: center;
+.business-cards .main-business-card{
+  position: absolute;
+  top: 60px;
+  width: 90%;
+  height: 90%;
+}
+
+
+.main-business-card h4{
+  padding: 10px 20px;
+}
+
+
+.main-business-card span:first-of-type{
+  padding-left: 20px;
+}
+
+
+.main-business-card li{
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+
+
+.main-business-card button{
+  margin: 20px;
+  padding-right: 30px;
+}
+
+
+
+.main-business-card .acquista{
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+
+
+.main-business-card h5{
+  margin-top: 30px;
+  margin-left: 16px;
+  padding: 5px;
+}
+
+
+
+.main-business-card>ul:nth-last-of-type(1)>li>i{
+  color:#005FFF;
+}
+
+
+
+
+.second{
   position: absolute;
   top: 100px;
-  left: 532px;
+  left: 390px;
+}
+
+
+
+.third{
+  position: absolute;
+  top: 100px;
+  left: 709px;
+}
+
+
+
+.fourth{
+  width: 86.7%;
+  height: 200px;
+  position: absolute;
+  top: 1060px;
+  left: 70px;
+}
+
+
+
+
+.main-business-card,.bottom-card>h4{
+  padding: 10px 0;
+}
+
+
+
+.main-business-card,.bottom-card>h6{
+  padding: 10px 0;
+}
+
+
+
+.bottom-card>span{
+  font-size: 12px;
+  margin-left: -20px;
+}
+
+
+.bottom-card>button{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
