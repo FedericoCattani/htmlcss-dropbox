@@ -341,7 +341,20 @@ header{
   left: 67px;
 }
 
+.container-operazioni h2{
+  margin-top: 90px;
+  max-width: 350px;
+}
 
+
+.container-operazioni a{
+  display: block;
+  color: #005FFF;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 25px 0;
+}
 
 .cards{
   display: inline-block;
