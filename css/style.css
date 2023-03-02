@@ -269,6 +269,7 @@ header{
 }
 
 
+
 .bottom-card>button{
   position: absolute;
   top: 0;
@@ -315,11 +316,14 @@ header{
 }
 
 
+
 .partner button{
   background-color: white;
   color: black;
   border: 1px solid black;
 }
+
+
 
 .container-partner h2{
   margin-top: 50px;
@@ -341,10 +345,14 @@ header{
   left: 67px;
 }
 
+
+
+
 .container-operazioni h2{
   margin-top: 90px;
   max-width: 350px;
 }
+
 
 
 .container-operazioni a{
@@ -355,6 +363,8 @@ header{
   font-weight: 400;
   margin: 25px 0;
 }
+
+
 
 .cards{
   display: inline-block;
@@ -373,6 +383,165 @@ header{
   padding: 5px 0;
 }
 
+
 .cards p{
   font-size: 14px;
+}
+
+
+
+/*SPONSOR*/
+.container-sponsor{
+  position: absolute;
+  top: 310%;
+  width: 100vw;
+  height: 400px;
+  background-color: #F5F5F5;
+}
+
+
+
+.square-left{
+  width: calc(100% / 4);
+  height: 100%;
+}
+
+
+
+.square-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% / 4);
+  height: 100%;
+  float: right;
+}
+
+
+
+.square-uno-left, .square-due-left, .square-tre-left, .square-quattro-left, .square-uno-right, .square-due-right, .square-tre-right, .square-quattro-right{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+
+
+.square-uno-right, .square-due-right, .square-tre-right, .square-quattro-right{
+  float: right;
+}
+
+
+
+.square-uno-left{
+  display: flex;
+  background-color: #A2D39B;
+}
+
+
+
+.square-uno-left img{
+  width: 150px;
+  margin: 0 auto;
+}
+
+
+
+.square-due-left{
+  display: flex;
+  background-color: #61082B;
+}
+
+
+.square-due-left img{
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+.square-tre-left{
+  display: flex;
+  background-color: #0093CE;
+}
+
+
+.square-tre-left img{
+  width: 100px;
+  height: 28px;
+  margin: 86px auto;
+}
+
+
+
+.square-quattro-left{
+  display: flex;
+  background-color: #FF1C1C;
+}
+
+
+
+.square-quattro-left img{
+  width: 100px;
+  margin: auto;
+}
+
+
+.square-central{
+  background-image: url(../img/designit.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+
+
+.square-uno-right{
+  display: flex;
+  background-color: #B4D0E7;
+}
+
+
+
+.square-uno-right img{
+  width: 100px;
+  margin: auto;
+}
+
+
+
+.square-due-right{
+  display: flex;
+  background-color: #D5001F;
+}
+
+
+.square-due-right img{
+  width: 100px;
+  margin: auto;
+}
+
+
+.square-tre-right{
+  display: flex;
+  background-color: #FFD830;
+}
+
+
+.square-tre-right img{
+  width: 100px;
+  margin: auto;
+}
+
+
+
+.square-quattro-right{
+  display: flex;
+  background-color: #0D2481;
+}
+
+
+
+.square-quattro-right img{
+  width: 100px;
+  margin: auto;
 }
