@@ -615,7 +615,132 @@ footer{
 
 
 .container-footer-list{
+  display: flex;
+  justify-content: space-around;
   width: 90%;
   height: 80%;
-  background-color: wheat;
+}
+
+
+.container-footer-list .first-list{
+  height: 100%;
+  width: 200px;
+}
+
+
+
+.first-list h3{
+  padding: 10px 0;
+  color: white;
+}
+
+
+.first-list li{
+  display: block;
+  padding: 5px 0;
+ 
+}
+.first-list li>a{
+  color: white;
+}
+
+
+
+/*.second-list{
+  position: absolute;
+  left: 319px;
+  top: 44px;
+}*/
+
+
+.second-list h3{
+  padding: 10px 0;
+  color: white;
+}
+
+
+
+.second-list li{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+.second-list li>a{
+  color: white;
+}
+
+
+
+
+/*.third-list{
+  position: absolute;
+  left: 319px;
+  top: 44px;
+}*/
+
+
+.third-list h3{
+  padding: 10px 0;
+  color: white;
+}
+
+
+
+.third-list li{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+.third-list li>a{
+  color: white;
+}
+
+
+
+
+
+
+.fourth-list h3{
+  padding: 10px 0;
+  color: white;
+}
+
+
+
+.fourth-list li{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+.fourth-list li>a{
+  color: white;
+}
+
+
+
+
+
+
+.fifth-list h3{
+  padding: 10px 0;
+  color: white;
+}
+
+
+
+.fifth-list li{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+.fifth-list li>a{
+  color: white;
 }
