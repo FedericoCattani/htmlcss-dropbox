@@ -397,6 +397,7 @@ header{
   width: 100vw;
   height: 400px;
   background-color: #F5F5F5;
+  
 }
 
 
@@ -436,6 +437,7 @@ header{
 .square-uno-left{
   display: flex;
   background-color: #A2D39B;
+  cursor: pointer;
 }
 
 
@@ -450,6 +452,7 @@ header{
 .square-due-left{
   display: flex;
   background-color: #61082B;
+  cursor: pointer;
 }
 
 
@@ -462,6 +465,7 @@ header{
 .square-tre-left{
   display: flex;
   background-color: #0093CE;
+  cursor: pointer;
 }
 
 
@@ -476,6 +480,7 @@ header{
 .square-quattro-left{
   display: flex;
   background-color: #FF1C1C;
+  cursor: pointer;
 }
 
 
@@ -512,6 +517,7 @@ header{
 .square-due-right{
   display: flex;
   background-color: #D5001F;
+  cursor: pointer;
 }
 
 
@@ -524,6 +530,7 @@ header{
 .square-tre-right{
   display: flex;
   background-color: #FFD830;
+  cursor: pointer;
 }
 
 
@@ -537,6 +544,7 @@ header{
 .square-quattro-right{
   display: flex;
   background-color: #0D2481;
+  cursor: pointer;
 }
 
 
@@ -596,6 +604,7 @@ header{
   float: right;
   padding-right: 30px; 
   font-size: 30px;
+  cursor: pointer;
 }
 
 
