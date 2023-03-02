@@ -597,3 +597,25 @@ header{
   padding-right: 30px; 
   font-size: 30px;
 }
+
+
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5550px;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+}
+
+
+.container-footer-list{
+  width: 90%;
+  height: 80%;
+  background-color: wheat;
+}
