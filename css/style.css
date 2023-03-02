@@ -549,11 +549,11 @@ header{
 
 
 
-
+/*CTA*/
 .cta-bottom{
   display: flex;
   align-items: center;
-  height: 300px;
+  height: 400px;
   background-color: #B4D0E7;
 }
 
@@ -575,11 +575,25 @@ header{
 
 
 
-
-.questions{
-  height: 200px;
-  width: 86.7%;
-  background-color: red;
+/*QUESTIONS*/
+.container-questions{
+  height: 520px;
+  width: 1448px;
+  
   position: absolute;
-  top: 3900px;
+  top: 4000px;
+}
+
+
+
+.container-questions h2, .dropdown{
+  padding: 30px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+
+.dropdown i{
+  float: right;
+  padding-right: 30px; 
+  font-size: 30px;
 }
