@@ -545,3 +545,41 @@ header{
   width: 100px;
   margin: auto;
 }
+
+
+
+
+
+.cta-bottom{
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: #B4D0E7;
+}
+
+
+.cta-bottom h2{
+  font-size: 30px;
+  margin-left: 235px;
+  color: #61082B;
+}
+
+
+
+.cta-bottom button{
+  position: absolute;
+  right: 235px;
+  color: black;
+  background-color: #FFFFFF;
+}
+
+
+
+
+.questions{
+  height: 200px;
+  width: 86.7%;
+  background-color: red;
+  position: absolute;
+  top: 3900px;
+}
